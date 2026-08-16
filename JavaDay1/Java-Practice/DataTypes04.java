@@ -20,6 +20,7 @@ public class DataTypes04 {
         System.out.println(g);
         System.out.println(isRainToday);
         System.out.println(name);
+        System.out.println(money);
 
     }
 }

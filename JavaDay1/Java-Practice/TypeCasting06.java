@@ -1,4 +1,4 @@
-public class TypeCasting07 {
+public class TypeCasting06 {
     public static void main(String[] agrs){
 
         int number = 100;
