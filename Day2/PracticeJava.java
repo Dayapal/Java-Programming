@@ -15,7 +15,6 @@ public class PracticeJava {
        int a = 10;
        int b = 50;
        int c = 30;
-
        if(a > b && a > c){
           System.out.println(a +  " A is greater than other");
        }
