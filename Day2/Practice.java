@@ -12,9 +12,17 @@ public class Practice {
         boolean result = age >= 18;
 
         System.out.println(result);
-        if(result){
+        if (result) {
             System.out.println("Adult");
         }
-    }
 
+        int number = 21;
+        if (number > 0) {
+            System.out.println("Positive number");
+        } else if (number < 0) {
+            System.out.println("Negative number");
+        } else if (number == 0) {
+            System.out.println("Zero");
+        }
+    }
 }
