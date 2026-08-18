@@ -7,7 +7,7 @@ public class Practice {
         } else {
             System.out.println("Invalid username or password");
         }
-        int age = 20;
+        int age = 21;
 
         boolean result = age >= 18;
 
@@ -16,7 +16,7 @@ public class Practice {
             System.out.println("Adult");
         }
 
-        int number = 21;
+        int number = 0;
         if (number > 0) {
             System.out.println("Positive number");
         } else if (number < 0) {
