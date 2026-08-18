@@ -11,6 +11,14 @@ public class PracticeJava {
         if (num1 > num2) {
              System.out.println("Num1 is greater than num2");
         }
+
+       int a = 10;
+       int b = 50;
+       int c = 30;
+
+       if(a > b && a > c){
+          System.out.println(a +  " A is greater than other");
+       }
     }
 
 }
