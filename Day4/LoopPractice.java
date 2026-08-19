@@ -8,5 +8,11 @@ public class LoopPractice {
                 System.out.println("There are the even number" + i);
             }
         }
+
+        int sum = 0;
+        for(int i = 1; i <=5; i++){
+            sum += i;
+            System.out.println("Sum of total number from 1 to 5 is : "+ sum);
+        }
     }
 }
