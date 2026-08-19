@@ -7,7 +7,6 @@ public class ContinueExample {
             if (i == 3) {
                 continue;
             }
-
             System.out.println(i);
         }
 
