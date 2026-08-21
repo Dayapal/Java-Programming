@@ -11,7 +11,6 @@ public class InputTaking {
 
         System.out.println("Enter you Second Number: ");
         int b = scn.nextInt();
-
         System.out.println("Sum " + (a + b));
         scn.close();
 
