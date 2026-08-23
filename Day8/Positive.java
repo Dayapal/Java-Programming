@@ -17,5 +17,6 @@ public class Positive {
         } else {
             System.out.println("Zero");
         }
+        sc.close();
     }
 }
