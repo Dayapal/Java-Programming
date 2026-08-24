@@ -1,6 +1,8 @@
+package Day9.practice;
+
 import java.util.Scanner;
 
-public class practice {
+public class practic3 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -9,7 +11,7 @@ public class practice {
         int year = sc.nextInt();
 
         if (year % 400 == 0 ||
-            (year % 4 == 0 && year % 100 != 0)) {
+                (year % 4 == 0 && year % 100 != 0)) {
 
             System.out.println("Leap Year");
 

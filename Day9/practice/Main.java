@@ -1,3 +1,5 @@
+package Day9.practice;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,16 +7,21 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter year: ");
-        int year = sc.nextInt();
+        System.out.print("Enter a: ");
+        int a = sc.nextInt();
 
-        if (year % 400 == 0 ||
-            (year % 4 == 0 && year % 100 != 0)) {
+        System.out.print("Enter b: ");
+        int b = sc.nextInt();
 
-            System.out.println("Leap Year");
+        System.out.print("Enter c: ");
+        int c = sc.nextInt();
 
+        if (a >= b && a >= c) {
+            System.out.println(a + " is largest");
+        } else if (b >= a && b >= c) {
+            System.out.println(b + " is largest");
         } else {
-            System.out.println("Not a Leap Year");
+            System.out.println(c + " is largest");
         }
     }
 }
