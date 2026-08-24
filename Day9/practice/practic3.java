@@ -18,5 +18,6 @@ public class practic3 {
         } else {
             System.out.println("Not a Leap Year");
         }
+        sc.close();
     }
 }
