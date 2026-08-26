@@ -36,8 +36,6 @@ public class Learning {
         }
 
         double discount = originalPrice - price;
-
-        // Wednesday discount
         if (day.equalsIgnoreCase("Wednesday")) {
 
             price = price - 50;
@@ -46,11 +44,9 @@ public class Learning {
 
         System.out.println();
         System.out.println("----- Ticket -----");
-
         System.out.println("Age: " + age);
         System.out.println("Student: " + student);
         System.out.println("Day: " + day);
-
         System.out.println("Original Price: ₹" + originalPrice);
         System.out.println("Discount: ₹" + discount);
         System.out.println("Final Price: ₹" + price);
