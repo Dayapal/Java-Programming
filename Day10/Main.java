@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
         String correctEmail = "admin@gmail.com";
         String correctPassword = "12345";
 
@@ -26,5 +24,7 @@ public class Main {
 
             System.out.println("Login successful");
         }
+        sc.close();
     }
+
 }
