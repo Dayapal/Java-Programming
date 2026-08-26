@@ -4,7 +4,6 @@ public class Learning {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter age: ");
         int age = sc.nextInt();
 
@@ -14,7 +13,7 @@ public class Learning {
         String day = sc.next();
         double originalPrice = 300;
         double price;
-        // Decide ticket price
+    
         if (age < 12) {
             price = 150;
         } else if (age >= 60) {
@@ -26,7 +25,6 @@ public class Learning {
 
             price = 300;
         }
-
         double discount = originalPrice - price;
         if (day.equalsIgnoreCase("Wednesday")) {
 
@@ -42,6 +40,8 @@ public class Learning {
         System.out.println("Original Price: ₹" + originalPrice);
         System.out.println("Discount: ₹" + discount);
         System.out.println("Final Price: ₹" + price);
+        System.out.println("Final Price: ₹" + price);
+        System.out.println("Just Think before you speak");
         sc.close();
     }
 
