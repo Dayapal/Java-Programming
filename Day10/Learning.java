@@ -10,24 +10,16 @@ public class Learning {
 
         System.out.print("Are you a student? (yes/no): ");
         String student = sc.next();
-
         System.out.print("Enter day: ");
         String day = sc.next();
-
         double originalPrice = 300;
         double price;
-
         // Decide ticket price
         if (age < 12) {
-
             price = 150;
-
         } else if (age >= 60) {
-
             price = 180;
-
         } else if (student.equalsIgnoreCase("yes")) {
-
             price = 200;
 
         } else {
