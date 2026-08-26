@@ -54,5 +54,7 @@ public class Learning {
         System.out.println("Original Price: ₹" + originalPrice);
         System.out.println("Discount: ₹" + discount);
         System.out.println("Final Price: ₹" + price);
+        sc.close();
     }
+
 }
