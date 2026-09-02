@@ -1,8 +1,6 @@
 package Day11;
 
 public class MethodParameters {
-    
-
     static void greet(String name){
         System.out.println("Hello Good Morning " + name);
     };
