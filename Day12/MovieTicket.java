@@ -1,36 +1,29 @@
+package Day12;
+
 import java.util.Scanner;
-public class Marks {
 
-      public static void main(String[] args) {
+public class MovieTicket {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter age: ");
+        System.out.println("Entre you Age: ");
         int age = sc.nextInt();
 
-        System.out.print("Are you a student? (yes/no): ");
+        System.out.println("Are you student ? (yes/no): ");
         String student = sc.next();
 
-        System.out.print("Enter day: ");
+        System.out.println("Enter Day ");
         String day = sc.next();
 
         double originalPrice = 300;
         double price;
-
-        // Decide ticket price
         if (age < 12) {
-
             price = 150;
-
         } else if (age >= 60) {
-
             price = 180;
 
         } else if (student.equalsIgnoreCase("yes")) {
-
             price = 200;
-
         } else {
-
             price = 300;
         }
 
