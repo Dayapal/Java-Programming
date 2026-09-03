@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Marks {
-    
+
       public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -36,7 +36,6 @@ public class Marks {
 
         double discount = originalPrice - price;
 
-        // Wednesday discount
         if (day.equalsIgnoreCase("Wednesday")) {
 
             price = price - 50;
