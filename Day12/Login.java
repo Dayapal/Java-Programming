@@ -14,5 +14,14 @@ public class Login {
 
         System.out.println("Enter your password");
         String password = sc.nextLine();
+
+        if(!email.equals(correctEmail)){
+            System.out.println("Email not found");
+        }else if(!password.equals(correctpassword)){
+            System.out.println("Incorrect Password");
+        }else{
+            System.out.println("Login Successfully");
+        }
+        sc.close();
     }
 }
