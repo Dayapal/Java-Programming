@@ -21,7 +21,7 @@ public class LargestOf_Three {
         }else {
             System.out.println("C is greater");
         }
-
-        
+ 
+        sc.close();
     }
 }
