@@ -1,6 +1,6 @@
 package Day14;
-
 import java.util.Scanner;
+
 
 public class Functions {
 
