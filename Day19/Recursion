@@ -1,0 +1,13 @@
+package Day19;
+public class Recursion{
+    static void countDown(int n){
+     if(n===0){
+        return
+     }
+     System.out.println(n)
+     counttDown(n-1)
+    }
+    public static void main(String[] args){
+
+    }
+}
