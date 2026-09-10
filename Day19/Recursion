@@ -5,11 +5,11 @@ public class Recursion{
     // countDown(5);
     System.out.println("Hello")
     }
-    //  static void countDown(int n){
-    //  if(n===0){
-    //     return
-    //  }
-    //  System.out.println(n)
-    //  counttDown(n-1)
+     static void countDown(int n){
+     if(n===0){
+        return;
+     }
+     System.out.println(n);
+     counttDown(n-1);
     // }
 }
