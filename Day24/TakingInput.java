@@ -19,9 +19,6 @@ public class TakingInput {
             System.out.println(numbers[i] + " ");
         }
 
-
-
-        
-
+      sc.close();
     }
 }
