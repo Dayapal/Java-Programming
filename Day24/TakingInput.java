@@ -11,6 +11,7 @@ public class TakingInput {
         System.out.println("Enter " + " numbers");
 
         for(int i = 0; i < numbers.length; i++){
+            numbers[i] = sc.nextInt();
 
         }
 
