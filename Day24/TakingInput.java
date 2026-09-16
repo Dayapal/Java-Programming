@@ -12,7 +12,6 @@ public class TakingInput {
 
         for(int i = 0; i < numbers.length; i++){
             numbers[i] = sc.nextInt();
-
         }
 
         
