@@ -8,6 +8,17 @@ public class TakingInput {
         System.out.println("Enter array size: ");
         int n = sc.nextInt();
         int[] numbers = new int[n];
+        System.out.println("Enter " + " numbers");
+
+        for(int i = 0; i < numbers.length; i++){
+
+        }
+
+        
+
+
+        
+
 
     }
 }
