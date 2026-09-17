@@ -11,6 +11,7 @@ public class TwoDArray {
             {70,80,90,100,110},
         };
         System.out.println("TwoD array : " + Twoarr);
+        System.out.println("Single Array " + SingleArray);
 
     }
 }
