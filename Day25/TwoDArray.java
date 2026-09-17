@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TwoDArray {
     public static void main(String[] args) {
-        int[] SingleArray = { 10, 20, 30, 40, 50 };
+        // int[] SingleArray = { 10, 20, 30, 40, 50 };
         int[][] Twoarr = {
                 { 10, 20, 30, 50, 60 },
                 { 10, 20, 30, 50, 60 },
@@ -12,8 +12,15 @@ public class TwoDArray {
                 { 70, 80, 90, 100, 110 },
                 { 70, 80, 90, 100, 110 },
         };
-        System.out.println("TwoD array : " + Arrays.deepToString(Twoarr));
-        System.out.println("Single Array " + Arrays.toString(SingleArray));
+        // System.out.println("TwoD array : " + Arrays.deepToString(Twoarr));
+        // System.out.println("Single Array " + Arrays.toString(SingleArray));
+
+        for(int i = 0; i < Twoarr.length; i++){
+            for(int j = 0; j < Twoarr.length; j++){
+                System.out.println(Twoarr[i][j] + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
