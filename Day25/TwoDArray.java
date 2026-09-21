@@ -13,7 +13,7 @@ public class TwoDArray {
                 { 70, 80, 90, 100, 110 },
         };
         // System.out.println("TwoD array : " + Arrays.deepToString(Twoarr));
-        // System.out.println("Single Array " + Arrays.toString(SingleArray));
+       
         for(int i = 0; i < Twoarr.length; i++){
             for(int j = 0; j < Twoarr[i].length; j++){
                 System.out.print(Twoarr[i][j] + " ");
