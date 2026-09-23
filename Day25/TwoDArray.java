@@ -1,6 +1,6 @@
 package Day25;
 
-// import java.util.Arrays;
+import java.util.Arrays;
 
 public class TwoDArray {
     public static void main(String[] args) {
