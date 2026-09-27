@@ -2,7 +2,6 @@ package Day23;
 
 public class FindElements {
    public static void main(String[] args) {
-    
     int[] numbers = {10,3,2,53,58,53,25,55,98};
     int target = 20;
     boolean found  = false;

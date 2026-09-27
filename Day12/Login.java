@@ -7,13 +7,11 @@ public class Login {
         Scanner sc = new Scanner(System.in);
         String correctEmail = "admin@gmail.com";
         String correctpassword = "12345";
-
         System.out.println("Enter you email");
         String email = sc.nextLine();
 
         System.out.println("Enter your password");
         String password = sc.nextLine();
-
         if(!email.equals(correctEmail)){
             System.out.println("Email not found");
         }else if(!password.equals(correctpassword)){

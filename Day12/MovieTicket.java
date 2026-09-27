@@ -28,7 +28,6 @@ public class MovieTicket {
         }
 
         double discount = originalPrice - price;
-
         if (day.equalsIgnoreCase("Wednesday")) {
 
             price = price - 50;
