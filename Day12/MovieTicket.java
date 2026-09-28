@@ -7,13 +7,11 @@ public class MovieTicket {
         Scanner sc = new Scanner(System.in);
         System.out.println("Entre you Age: ");
         int age = sc.nextInt();
-
         System.out.println("Are you student ? (yes/no): ");
         String student = sc.next();
 
         System.out.println("Enter Day ");
         String day = sc.next();
-
         double originalPrice = 300;
         double price;
         if (age < 12) {
