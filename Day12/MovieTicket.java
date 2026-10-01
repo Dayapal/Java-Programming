@@ -24,7 +24,6 @@ public class MovieTicket {
         } else {
             price = 300;
         }
-
         double discount = originalPrice - price;
         if (day.equalsIgnoreCase("Wednesday")) {
 
@@ -34,11 +33,9 @@ public class MovieTicket {
 
         System.out.println();
         System.out.println("----- Ticket -----");
-
         System.out.println("Age: " + age);
         System.out.println("Student: " + student);
         System.out.println("Day: " + day);
-
         System.out.println("Original Price: ₹" + originalPrice);
         System.out.println("Discount: ₹" + discount);
         System.out.println("Final Price: ₹" + price);
