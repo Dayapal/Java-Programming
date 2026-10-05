@@ -13,7 +13,6 @@ public class Learning {
         String day = sc.next();
         double originalPrice = 300;
         double price;
-    
         if (age < 12) {
             price = 150;
         } else if (age >= 60) {

@@ -7,7 +7,6 @@ public class MovieTicket {
         int age = sc.nextInt();
         System.out.println("Are you student ? (yes/no): ");
         String student = sc.next();
-
         System.out.println("Enter Day ");
         String day = sc.next();
         double originalPrice = 300;
@@ -28,7 +27,6 @@ public class MovieTicket {
             price = price - 50;
             discount = originalPrice - price;
         }
-
         System.out.println();
         System.out.println("----- Ticket -----");
         System.out.println("Age: " + age);
